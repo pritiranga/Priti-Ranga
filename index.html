@@ -4,129 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Priti Ranga - DevOps Engineer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #0779e4 3px solid;
-        }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        .showcase {
-            min-height: 400px;
-            background: url('https://source.unsplash.com/1600x900/?technology') no-repeat 0 -400px;
-            text-align: center;
-            color: #fff;
-        }
-        .showcase h1 {
-            margin-top: 100px;
-            font-size: 55px;
-            margin-bottom: 10px;
-        }
-        .showcase p {
-            font-size: 20px;
-        }
-        section {
-            padding: 20px 0;
-        }
-        .bio {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-        .bio h2 {
-            font-size: 30px;
-            color: #333;
-        }
-        .bio p {
-            font-size: 18px;
-            color: #666;
-            line-height: 1.6;
-        }
-        .cta {
-            margin-top: 20px;
-        }
-        .cta a {
-            background: #0779e4;
-            color: #fff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Priti Ranga</h1>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="priticv.pdf" download>CV</a></li>
-            </ul>
-        </div>
+        <h1>Priti Ranga</h1>
+        <p>DevOps Engineer</p>
+        <p>Haryana, IN | 7988109138 | pritiranga9@gmail.com | <a href="https://www.linkedin.com/in/priti-ranga">LinkedIn</a></p>
     </header>
-
-    <section class="showcase">
-        <div class="container">
-            <h1>DevOps Engineer</h1>
-            <p>Specializing in DevOps & DevSecOps | 2+ Years of Experience in Automation & Cloud Solutions</p>
-        </div>
+    <section id="profile-summary">
+        <h2>Profile Summary</h2>
+        <p>DevOps engineer with 2.5 years of experience aiming to streamline software development and deployment pipelines, manage and optimize cloud infrastructure, and enhance CI/CD and DevSecOps processes using tools like AWS, Docker, Kubernetes, and Jenkins, ensuring efficient, reliable, and secure software delivery and system performance.</p>
     </section>
-
-    <section class="bio container">
-        <h2>About Me</h2>
-        <p>
-            I am a dedicated and results-driven DevOps Engineer with over two years of hands-on experience in the industry. My expertise spans across both DevOps and DevSecOps, where I have successfully contributed to streamlining development processes, enhancing system security, and optimizing operational efficiency.
-        </p>
-        <p>
-            In my role, I have been involved in automating deployment pipelines, implementing robust CI/CD practices, and ensuring seamless integration and delivery of software. My experience with various tools and platforms, including Docker, Kubernetes, Jenkins, and Ansible, has equipped me with the skills to manage complex infrastructures and support scalable applications.
-        </p>
-        <p>
-            Security is a top priority in my work, and I have consistently integrated security practices into the DevOps lifecycle to protect against vulnerabilities and ensure compliance. My proficiency in cloud services such as AWS has further enabled me to build secure, scalable, and resilient solutions.
-        </p>
-        <p>
-            I am passionate about continuous learning and staying updated with the latest industry trends and technologies. I thrive in collaborative environments and enjoy working with cross-functional teams to achieve common goals.
-        </p>
-        <div class="cta">
-            <a href="priticv.pdf" download>Download My CV</a>
-        </div>
+    <section id="experience">
+        <h2>Experience</h2>
+        <h3>TestingXperts | DevOps Engineer (Jan 2022 – Current)</h3>
+        <ul>
+            <li>Developed dynamic pipeline workflows that improved efficiency in handling new client proposals, reducing manual intervention by 40%.</li>
+            <li>Mastered Terraform for streamlined infrastructure deployments, reducing setup time by 30%.</li>
+            <li>Leveraged advanced AWS services to optimize cloud infrastructure, resulting in cost savings of 20%.</li>
+            <li>Enhanced DevSecOps pipelines, reducing deployment time by 40% and improving security posture.</li>
+            <li>Implemented shell scripting techniques, automating tasks to increase operational efficiency by 50%.</li>
+            <li>Developed and maintained reliable DevSecOps Jenkins pipelines to ensure non-vulnerable deployments, achieving a 99% success rate.</li>
+            <li>Deployed applications using Docker and Kubernetes for scalability and reliability, resulting in a 25% increase in uptime.</li>
+            <li>Integrated security tools such as SonarQube, Checkov, Trivy, Dependency Checker, and OWASP ZAP into CI/CD pipelines, demonstrating problem-solving skills and reducing security vulnerabilities by 35%.</li>
+            <li>Implemented pre-production approval processes to enhance deployment security and compliance, showcasing time management and reliability, leading to a 20% decrease in post-deployment issues.</li>
+        </ul>
     </section>
-
-    <footer>
-        <p>&copy; 2024 Priti Ranga</p>
-    </footer>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Created a DevSecOps Jenkins pipeline for Java-based applications, decreasing deployment time by 40%.</li>
+            <li>Wrote Jenkinsfiles to define pipeline stages and automate processes, improving efficiency by 50%.</li>
+            <li>Configured GitLab integration, saving development time by 30%.</li>
+            <li>Implemented Kubernetes environment checks and cleanup to ensure reliable deployments.</li>
+            <li>Utilized dynamic configurations in pipeline builds, increasing flexibility and efficiency.</li>
+            <li>Conducted Software Composition Analysis and integrated SonarQube, enhancing security.</li>
+            <li>Ran unit tests and Docker file security scans, improving overall quality and safety.</li>
+            <li>Managed Docker images in Nexus repository, reducing management time by 20%.</li>
+            <li>Automated the creation of staging and production environments on Kubernetes, streamlining deployment processes.</li>
+            <li>Used OWASP ZAP for Static Application Security Testing (SAST), ensuring compliance.</li>
+            <li>Implemented manual deployment approvals for pre-production, increasing control over releases.</li>
+            <li>Monitored Jenkins server performance and sent notifications to Microsoft Teams, improving operational visibility and response times.</li>
+        </ul>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <p>Guru Jambheshwar University of Science and Technology, Hisar, HR, India</p>
+        <p>MCA | 2018 - 2021</p>
+        <p>PGDCA | 2016 - 2017</p>
+        <p>Govt. P.G. College, Jind, HR, India</p>
+        <p>B.Sc. Computer Science | 2013 - 2016</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Cloud Platforms: AWS, Azure DevOps</li>
+            <li>Infrastructure Automation Tools: Terraform</li>
+            <li>Configuration Management Tools: Ansible</li>
+            <li>Continuous Integration Systems: Jenkins, GitLab CI/CD</li>
+            <li>Containerization Technologies: Docker</li>
+            <li>Container Orchestration and Management: Kubernetes, Helm</li>
+            <li>Source and Version Control: Git, GitHub, GitLab</li>
+            <li>Scripting Languages: BASH</li>
+            <li>Monitoring and Logging: Prometheus, Grafana</li>
+            <li>Operating Systems: Linux (Ubuntu), Windows</li>
+            <li>Security Automation Tools: SonarQube, Trivy, Dependency Check, OWASP ZAP</li>
+            <li>Repository Management: Nexus, JFrog Artifactory</li>
+        </ul>
+    </section>
+    <section id="cv">
+        <h2>Download CV</h2>
+        <a href="pritirangaCV.pdf" download>Download Priti Ranga's CV</a>
+    </section>
 </body>
 </html>
